@@ -18,13 +18,13 @@
                     aria-expanded="true">
                     <h4 class="card-title">Manual Transfer</h4>
                     <div class="card-text">
-                        <img class="brand-logo mx-auto d-block text-center"
-                            src="{{ asset('/assets/backsite/app-assets/images/logo/logo_bri.png') }}" alt="BRI Logo"
+                        <img class="brand-logo mx-auto d-block text-center mt-3"
+                            src="{{ asset('/assets/backsite/app-assets/images/logo/logo-bni.svg') }}" alt="BRI Logo"
                             width="50%">
                         <p class="mt-3">
-                            You can transfer to the BRI account number
-                            <strong>0403-0102-5770-50-9</strong> on behalf of
-                            <strong>Muhammad Aswan</strong>. After that, please submit your payment
+                            You can transfer to the BNI account number
+                            <strong>6676992195</strong> on behalf of
+                            <strong>PT Minasa Elektro Sains Teknologi</strong>. After that, please submit your payment
                             receipt through the 'Pay Now' button below.
                         </p>
                         <button type="button" class="btn btn-primary btn-block mt-3"
