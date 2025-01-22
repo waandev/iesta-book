@@ -1,3 +1,5 @@
+@section('title', 'Login')
+
 @push('styles')
     <style>
         .separator {

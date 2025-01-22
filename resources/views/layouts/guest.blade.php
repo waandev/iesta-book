@@ -6,7 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Laravel') }}</title>
+    <title>@yield('title') | IESTA</title>
+
+    <!-- Favicons -->
+    <link href="{{ asset('/assets/frontsite/assets/img/logo-iesta.png') }}" rel="icon">
+    <link href="{{ asset('/assets/frontsite/assets/img/logo-iesta.png') }}" rel="apple-touch-icon">
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.bunny.net">
