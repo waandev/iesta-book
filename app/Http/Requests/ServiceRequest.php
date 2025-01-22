@@ -38,6 +38,7 @@ class ServiceRequest extends FormRequest
             'email.email' => 'Please enter a valid email address.',
             'institution.required' => 'Please enter your institution.',
             'messages.required' => 'Please enter your message.',
+            'g-recaptcha-response.required' => 'reCAPTCHA verification is required.',
         ];
     }
 }
