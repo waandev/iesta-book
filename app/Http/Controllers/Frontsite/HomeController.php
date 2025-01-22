@@ -130,7 +130,7 @@ class HomeController extends Controller
 
         $body = json_decode((string) $response->getBody());
 
-        if (!$body->success || $body->score < 0.5) {
+        if (!$body->success || $body->score < 0.7) {
             return back()->withErrors(['g-recaptcha-response' => 'reCAPTCHA verification failed, please try again.']);
         }
     }
