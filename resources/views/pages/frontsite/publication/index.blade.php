@@ -63,7 +63,12 @@
                                         @livewire('frontsite.add-to-cart', ['publicationId' => $publication->id])
                                     </div>
                                 </div>
+
                             </div>
+                            <p>
+                                Description: Analog circuits, reconfigurable fuzzy logic, innovative solutions for adaptive
+                                control systems.
+                            </p>
                         </div>
                     @empty
                         {{-- not found --}}
