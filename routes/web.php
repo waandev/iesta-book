@@ -10,12 +10,14 @@ use App\Http\Controllers\Backsite\MidtransWebhookController;
 use App\Http\Controllers\Backsite\PaymentController;
 use App\Http\Controllers\Frontsite\HomeController;
 use App\Http\Controllers\Frontsite\PublicationController;
+use App\Http\Controllers\Frontsite\TermsController;
 use Illuminate\Support\Facades\Route;
 use Symfony\Component\Finder\Iterator\CustomFilterIterator;
 
 Route::resource('/', HomeController::class);
 Route::post('/', [HomeController::class, 'sendEmail'])->name('sendEmail');
 Route::resource('/publication', PublicationController::class);
+Route::get('/terms-and-conditions', [TermsController::class, 'index'])->name('terms.index');
 
 
 

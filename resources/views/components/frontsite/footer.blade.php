@@ -73,6 +73,10 @@
                             <li class="item-list-a">
                                 <i class="bi bi-chevron-right"></i> <a href="#">Social Media Policy</a>
                             </li>
+                            <li class="item-list-a">
+                                <i class="bi bi-chevron-right"></i> <a href="{{ route('terms.index') }}">Terms
+                                    & Conditions</a>
+                            </li>
                         </ul>
                     </div>
                 </div>
