@@ -76,7 +76,7 @@
                                             ? route('customer.dashboard.index')
                                             : (Auth::user()->role_user && Auth::user()->role_user->role_id === 2
                                                 ? route('admin.dashboard.index')
-                                                : route('backsite.dashboard.index')) }}
+                                                : '#') }}
                                     ">
                                         Dashboard
                                     </a>
